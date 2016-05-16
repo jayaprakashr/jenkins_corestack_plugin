@@ -1,5 +1,5 @@
-# Jenkins Corestack plugin
---------------------------
+# Jenkins Corestack Orchestrator plugin
+--------------------------------------
 
 This plugin integrates [Corestack orchestrator][] with Jenkins. 
 
