@@ -1,10 +1,27 @@
-Jenkins Corestack plugin
+# Jenkins Corestack plugin
+--------------------------
 
-This plugin is a Jenkins Notifier to Corestack orchestrator via REST API to update the status of a jenkins job against the configured Corestack's job. Corestack server credentials are captured as part of jenkins global configuration. 
+This plugin integrates [Corestack orchestrator][] with Jenkins. 
 
-Introduction to Corestack:
-	CoreStack simplifies orchestration by converging multiple DSLs and Configuration management. It provides an effective service framework to chain operations such as Cloud Provisioning, Configuration management, Deployment, Monitoring, Security management, Log management and many other IT and Cloud Operations. It integrates with a variety of virtualization platforms, public and private cloud providers, configuration tools, monitoring tools and more.
+[Corestack orchestrator]: http://www.corestack.io/
+
+This helps to notify the status of a jenkins job against the configured corestack job via REST API. Corestack server credentials are captured as part of jenkins global configuration. 
+
+# Configurations:
+
+Add Corestack server credentails to establish valid connection as part of jenkins global config
+
+![Global Config](/doc/global_config.png)
+
+On Job configuration page, add post build action "Corestack Notification" to provide corestack project & job details
+
+![Corestack post build action](/doc/post_build_action.png)
+
+![Corestack Notification Config](/doc/post_build_config.png)
 
 * Jenkins : http://www.jenkins-ci.org
 * Corestack : http://www.corestack.io/
 
+Maintainer
+----------
+Jayapraksh R <mail2jayaprakashr@gmail.com>
