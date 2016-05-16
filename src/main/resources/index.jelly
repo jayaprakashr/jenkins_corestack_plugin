@@ -1,0 +1,5 @@
+<div>
+  This plugin is a Notifier that will talk to a <a href="https://cloud.corestack.io/">Corestack</a> instance
+  (via its HTTP API) after a build on Jenkins.<br />
+</div>
+
